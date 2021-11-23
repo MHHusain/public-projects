@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "muntathar first extention",
+  "version": "0.1",
+  "content_scripts": [
+  {
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["content.js"]
+  }
+],
+  "browser_action": {
+  "default_icon": "Screenshot_2019-04-22-13-31-21-1.png"
+},
+"background": {
+  "scripts": ["background.js"]
+}
+}

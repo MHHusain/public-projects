@@ -1,0 +1,10 @@
+reg delete "HKEY_CURRENT_USER\SOFTWARE\NCH Software\Crescendo\Registration" /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\NCH Software\Pixillion\Registration" /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\NCH Software\Doxillion\Registration" /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\NCH Software\MixPad\Registration" /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\NCH Software\Prism\Registration" /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\NCH Software\SoundTap\Registration" /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\NCH Software\Switch\Registration" /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\NCH Software\ToneGen\Registration" /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\NCH Software\WavePad\Registration" /f
+reg delete "HKEY_CURRENT_USER\SOFTWARE\NCH Software\DeskFX\Registration" /f
