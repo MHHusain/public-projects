@@ -1,0 +1,4 @@
+﻿  my first visual studio project.cpp
+  Source.h
+C:\Users\NS\Desktop\my first visual studio project\my first visual studio project\Source.h(1,1): error C2059: syntax error: '}'
+C:\Users\NS\Desktop\my first visual studio project\my first visual studio project\Source.h(1,1): error C2143: syntax error: missing ';' before '}'
