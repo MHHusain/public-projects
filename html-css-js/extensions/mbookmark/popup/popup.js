@@ -1,0 +1,1 @@
+// window.open("chrome-extension://gcahgjmgabiplophdnmipgglcingndah/option/option.html","","width=100")

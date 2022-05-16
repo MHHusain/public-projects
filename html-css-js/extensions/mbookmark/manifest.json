@@ -1,0 +1,36 @@
+{  
+    "name": "mbookmark",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "bookmark your internet the best way with Mbookmark",
+    "icons": {
+        "16": "icons/default_icons/16x16-instagram.png",
+        "32": "icons/default_icons/32.png",
+        "48": "icons/default_icons/arch_48.png",
+        "128": "icons/default_icons/128.png"
+    },
+    "action":{
+        "default_popup": "popup/popup.html",
+        "default_title": "My_title",
+        "default_icon": {
+            "16":"icons/icons/get_started16.png",
+            "32":"icons/icons/get_started32.png",
+            "48":"icons/icons/get_started48.png",
+            "128":"icons/icons/get_started128.png"
+          }
+    },
+    "author": "Muntahar",
+    "content_scripts": [
+        {
+            "matches":["<all_urls>"],
+            "js":["inject.js"]
+        }
+    ],
+    "background": {
+        "service_worker":"background_script.js"
+    },
+    "permissions": ["tabs","commands"],
+    "options_page": "option/option.html"
+    
+
+}
